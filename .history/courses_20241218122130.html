@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awosome Library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Main Css File -->
+    <link rel="stylesheet" href="./dist/output.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Courses</title>
+  </head>
+  <body class="font-fontPage">
+    <div class="bg-colorPage min-h-screen flex">
+      <!-- Start Aside -->
+      <aside
+        class="p-2.5 md:p-5 md:px-[15px] bg-white relative shadow-asideShadow"
+      >
+        <h3
+          class="relative mt-2.5 md:mt-0 text-center p-1 mb-7 font-bold text-[15px] md:text-lg md:beforee md:afterr"
+        >
+          François Dupond
+        </h3>
+        <ul>
+          <li>
+            <a class="link" href="index.html">
+              <i class="fa-solid fa-wallet fa-fw"></i>
+              <span class="span">Comptes</span>
+            </a>
+          </li>
+          <li>
+            <a class="link active" href="courses.html">
+              <i class="fa-solid fa-money-bill-wave fa-fw"></i>
+              <span class="span">virement</span>
+            </a>
+          </li>
+          <li>
+            <a class="link" href="plans.html">
+              <i class="fa-regular fa-credit-card fa-fw"></i>
+              <span class="span">Cartes</span>
+            </a>
+          </li>
+          <li>
+            <a class="link" href="profile.html">
+              <i class="fa-regular fa-user fa-fw"></i>
+              <span class="span">Profile</span>
+            </a>
+          </li>
+          
+          <li>
+            <a class="link" href="settings.html">
+              <i class="fa-solid fa-sign-out-alt fa-fw"></i>
+              <span class="span">Deconnexion</span>
+            </a>
+          </li>
+          
+          
+          
+        </ul>
+      </aside>
+      <!-- End Aside -->
+      <section class="w-full overflow-hidden">
+        <!-- Start Header -->
+        <div class="p-3 bg-white flex justify-between items-center">
+          <article class="relative">
+          
+          </article>
+          <article class="flex items-center">
+            <span class="relative bill-notify">
+              <i class="fa-regular fa-bell fa-lg"></i>
+            </span>
+            <img
+              class="w-8 h-8 rounded-full ml-3"
+              src="./imgs/photomail.jpg"
+              alt=""
+            />
+          </article>
+        </div>
+        <!-- End Header -->
+      
+        <h1
+          class="mt-4 mb-10  font-bold text-[25px] md:text-[33px] relative head-progress"
+        >
+          Effectuer un virement
+        </h1>
+      
+        <!-- Start Form -->
+        <div class="flex justify-center items-center">
+          <form class="w-full max-w-[500px] bg-white px-8 py-6 rounded-xl shadow-md">
+            <!-- Choisir un compte -->
+            <div class="mb-6">
+              <label
+                class="block  text-sm font-semibold mb-3"
+                for="account"
+              >
+                Compte à débiter
+              </label>
+              <select
+                id="account"
+                name="account"
+                class="w-full border border-[#ccc] rounded-lg px-4 py-3  text-sm font-medium hover:shadow-md focus:outline-none focus:border-blueColor duration-300"
+              >
+                <option value="current">Compte courant (IBAN : FR76 XXXX XXXX 9012)</option>
+                <option value="savings">Compte épargne (IBAN : FR58 XXXX XXXX 5024)</option>
+                <option value="card">Carte bancaire (N° : 4165 388572087221)</option>
+              </select>
+            </div>
+      
+            <!-- RIB du bénéficiaire -->
+            <div class="mb-6">
+              <label
+                class="block text-sm font-semibold mb-3"
+                for="rib"
+              >
+                RIB du bénéficiaire
+              </label>
+              <input
+                type="text"
+                id="rib"
+                name="rib"
+                placeholder="Ex : FR76 3456 7890 1234 5678"
+                class="w-full border border-[#ccc] rounded-lg px-4 py-3  text-sm font-medium hover:shadow-md focus:outline-none focus:border-blueColor duration-300"
+              />
+            </div>
+      
+            <!-- Montant -->
+            <div class="mb-6">
+              <label
+                class="block  text-sm font-semibold mb-3"
+                for="amount"
+              >
+                Montant à transférer (€)
+              </label>
+              <input
+                type="number"
+                id="amount"
+                name="amount"
+                placeholder="Ex : 150"
+                class="w-full border border-[#ccc] rounded-lg px-4 py-3  text-sm font-medium hover:shadow-md focus:outline-none focus:border-blueColor duration-300"
+              />
+            </div>
+      
+            <!-- Bouton -->
+            <div class="text-center">
+              <button
+                type="submit"
+                class="w-full bg-greenColor text-white py-3 px-4 rounded-lg font-semibold text-sm hover:bg-green-700 hover:shadow-lg duration-300"
+              >
+                Effectuer le virement
+              </button>
+            </div>
+          </form>
+        </div>
+        <!-- End Form -->
+      </section>
+      
+      
+      
+    </div>
+  </body>
+</html>

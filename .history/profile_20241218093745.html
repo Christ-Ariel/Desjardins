@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awosome Library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Main Css File -->
+    <link rel="stylesheet" href="./dist/output.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Profile</title>
+  </head>
+  <body class="font-fontPage">
+    <div class="bg-colorPage min-h-screen flex">
+      <!-- Start Aside -->
+      <aside
+        class="p-2.5 md:p-5 md:px-[15px] bg-white relative shadow-asideShadow"
+      >
+        <h3
+          class="relative mt-2.5 md:mt-0 text-center p-1 mb-7 font-bold text-[15px] md:text-lg md:beforee md:afterr"
+        >
+          François dupond
+        </h3>
+        <ul>
+          <li>
+            <a class="link" href="index.html">
+              <i class="fa-regular fa-chart-bar fa-fw"></i>
+              <span class="span">Desjardins</span>
+            </a>
+          </li>
+          
+          
+          <li>
+            <a class="link" href="projects.html">
+              <i class="fa-solid fa-diagram-project fa-fw"></i>
+              <span class="span">Compte</span>
+            </a>
+          </li>
+          <li>
+            <a class="link" href="courses.html">
+              <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <span class="span">Effectuer un virement</span>
+            </a>
+          </li>
+          <li>
+            <a class="link" href="plans.html">
+              <i class="fa-regular fa-credit-card fa-fw"></i>
+              <span class="span">Cartes</span>
+            </a>
+          </li>
+          <li>
+            <a class="link active" href="profile.html">
+              <i class="fa-regular fa-user fa-fw"></i>
+              <span class="span">Profile</span>
+            </a>
+          </li>
+          <li>
+            <a class="link" href="settings.html">
+              <i class="fa-solid fa-gear fa-fw"></i>
+              <span class="span">Settings</span>
+            </a>
+          </li>
+        </ul>
+      </aside>
+      <!-- End Aside -->
+      <section class="w-full overflow-hidden">
+        <!-- Start Header -->
+        <div class="p-3 bg-white flex justify-between items-center">
+          <article class="relative">
+            
+            <input
+              class="p-2 outline-none rounded-[12px] border text-grayColor border-[#ccc] pl-8 ml-1.5 focus:placeholder:opacity-0 focus:pr-6 duration-500"
+              type="search"
+              placeholder="Type A Keyword"
+            />
+          </article>
+          <article class="flex items-center">
+            <span class="relative bill-notify">
+              <i class="fa-regular fa-bell fa-lg"></i>
+            </span>
+            <img
+              class="w-8 h-8 rounded-full ml-3"
+              src="./imgs/photomail.jpg"
+              alt=""
+            />
+          </article>
+        </div>
+        <!-- End Header -->
+        <h1
+          class="mt-4 mb-10 ml-4 font-bold text-[25px] md:text-[33px] relative head-progress"
+        >
+          Profile
+        </h1>
+        <!-- Satrt Content -->
+        <div class="flex flex-wrap mx-2.5 mb-3 md:mx-5 gap-5">
+          <!-- Start Information Section -->
+          <article class="article w-[1100px]">
+            <div class="p-5 flex flex-col lg:flex-row">
+              <!-- Start Box Info -->
+              <section
+                class="text-center px-16 flex flex-col justify-center items-center pb-2 border-b-2 md:border-b-0 md:border-r-2 border-[#eee]"
+              >
+                <img
+                  class="w-[100px] h-[100px] mb-2.5 rounded-full"
+                  src="./imgs/photomail.jpg"
+                  alt=""
+                />
+                <h3 class="font-bold">François dupond</h3>
+                
+
+                <div
+                  class="level rounded-[6px] bg-[#ccc] relative h-[6px] w-[70%] my-5 mx-auto"
+                >
+                  <span
+                    class="block absolute top-0 left-0 h-full bg-blueColor rounded-[6px]"
+                    style="width: 70%"
+                  ></span>
+                </div>
+
+                
+              </section>
+              <!-- End Box Info -->
+              <!-- Start General Information -->
+              <section class="w-full text-center md:text-start">
+                <div
+                  class="flex flex-col lg:flex-row justify-between flex-wrap items-center border-b-[1px] p-5 border-[#eee] duration-300 hover:bg-[#f9f9f9]"
+                >
+                  <h4 class="w-full text-center lg:text-start text-grayColor">
+                    General Information
+                  </h4>
+                  <div class="text-[14px] min-w-[200px] pt-2.5">
+                    <span class="text-grayColor">Nom et Prenom: </span>
+                    <span>François dupond</span>
+                  </div>
+                  <div class="text-[14px] min-w-[200px] pt-2.5 pl-0 lg:pl-5">
+                    <span class="text-grayColor">Genre: </span>
+                    <span>Masculin</span>
+                  </div>
+                  <div class="text-[14px] min-w-[200px] pt-2.5">
+                    <span class="text-grayColor">Pays:</span>
+                    <span>France</span>
+                  </div>
+                  
+                </div>
+
+                
+                <div
+                  class="flex flex-col lg:flex-row justify-between flex-wrap items-center border-b-[1px] p-5 border-[#eee] duration-300 hover:bg-[#f9f9f9]"
+                >
+                  <h4 class="w-full text-center lg:text-start text-grayColor">
+                    Personal Information
+                  </h4>
+                  <div class="text-[14px] min-w-[200px] pt-2.5 pl-0">
+                    <span class="text-grayColor">Email: </span>
+                    <span>visa.mastercard@gmail.com</span>
+                  </div>
+                  <div class="text-[14px] min-w-[200px] pt-2.5 pl-0 lg:pl-5">
+                    <span class="text-grayColor">Phone: </span>
+                    <span>+33 6 85 85 74 20</span>
+                  </div>
+                  <div class="text-[14px] min-w-[200px] pt-2.5 pl-0">
+                    <span class="text-grayColor">Date de naissance:</span>
+                    <span>13/08/1987</span>
+                  </div>
+                  
+                </div>
+
+                <div
+                  class="flex flex-col lg:flex-row justify-between flex-wrap items-center border-b-[1px] p-5 border-[#eee] duration-300 hover:bg-[#f9f9f9]"
+                >
+                  <h4 class="w-full text-center lg:text-start text-grayColor">
+                    Job Information
+                  </h4>
+                  <div class="text-[14px] min-w-[200px] pt-2.5 pl-0">
+                    <span class="text-grayColor">Titre: </span>
+                    <span>Artiste</span>
+                  </div>
+                  <div class="text-[14px] min-w-[200px] pt-2.5 pl-0 lg:pl-5">
+                    <span class="text-grayColor">Entreprise:</span>
+                    <span>JS</span>
+                  </div>
+                  <div class="text-[14px] min-w-[200px] pt-2.5 pl-0">
+                    <span class="text-grayColor">Years Of Experience:</span>
+                    <span>10+</span>
+                  </div>
+                  
+                </div>
+              </section>
+              <!-- End General Information -->
+            </div>
+          </article>
+          <!-- End Information Section -->
+          <!-- Start My SKills -->
+        
+          <!-- End Latest Activities -->
+        </div>
+        <!-- End Content -->
+      </section>
+    </div>
+  </body>
+</html>

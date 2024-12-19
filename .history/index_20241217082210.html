@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awosome Library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Main Css File -->
+    <link rel="stylesheet" href="./dist/output.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Desjardins</title>
+  </head>
+  <body class="font-fontPage">
+    <div class="bg-colorPage min-h-screen flex">
+      <!-- Start Aside -->
+      <aside
+        class="p-2.5 md:p-5 md:px-[15px] bg-white relative shadow-asideShadow"
+      >
+        <h3
+          class="relative mt-2.5 md:mt-0 text-center p-1 mb-7 font-bold text-[15px] md:text-lg md:beforee md:afterr"
+        >
+          François dupond
+        </h3>
+        <ul>
+          <li>
+            <a class="link active" href="index.html">
+              <i class="fa-regular fa-chart-bar fa-fw"></i>
+              <span class="span">Desjardin</span>
+            </a>
+          </li>
+          
+          
+          <li>
+            <a class="link" href="projects.html">
+              <i class="fa-solid fa-diagram-project fa-fw"></i>
+              <span class="span">comptes</span>
+            </a>
+          </li>
+          <li>
+            <a class="link" href="courses.html">
+              <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <span class="span">virement</span>
+            </a>
+          </li>
+          <li>
+            <a class="link" href="plans.html">
+              <i class="fa-regular fa-credit-card fa-fw"></i>
+              <span class="span">Cartes bancaire</span>
+            </a>
+          </li>
+          <li>
+            <a class="link" href="profile.html">
+              <i class="fa-regular fa-user fa-fw"></i>
+              <span class="span">Profile</span>
+            </a>
+          </li>
+          <li>
+            <a class="link" href="settings.html">
+              <i class="fa-solid fa-gear fa-fw"></i>
+              <span class="span">Settings</span>
+            </a>
+          </li>
+          <li>
+            <a class="link" href="friends.html">
+              <i class="fa-regular fa-circle-user fa-fw"></i>
+              <span class="span">Friends</span>
+            </a>
+          </li>
+          <li>
+            <a class="link" href="files.html">
+              <i class="fa-regular fa-file fa-fw"></i>
+              <span class="span">Files</span>
+            </a>
+          </li>
+          
+        </ul>
+      </aside>
+      <!-- Start Aside -->
+      <section class="w-full overflow-hidden">
+        <!-- Start Header -->
+        <div class="p-3 bg-white flex justify-between items-center">
+          <article class="relative sreach-icon">
+            <i
+              class="fa-solid fa-magnifying-glass font-bold text-grayColor absolute top-1/2 -translate-y-1/2 left-[15px]"
+            ></i>
+            <input
+              class="p-2 outline-none rounded-[12px] border text-grayColor border-[#ccc] pl-8 ml-1.5 focus:placeholder:opacity-0 focus:pr-6 duration-300"
+              type="search"
+              placeholder="Type A Keyword"
+            />
+          </article>
+          <article class="flex items-center">
+            <span class="relative bill-notify">
+              <i class="fa-regular fa-bell fa-lg"></i>
+            </span>
+            <img
+              class="w-8 h-8 rounded-full ml-3"
+              src="./imgs/photomail.jpg"
+              alt=""
+            />
+          </article>
+        </div>
+        <!-- End Header -->
+        <h1
+          class="mt-4 mb-10 ml-4 font-bold text-[25px] md:text-[33px] relative head-progress"
+        >
+          Desjardins
+        </h1>
+        <!-- Start content -->
+        <div class="flex flex-wrap mx-2.5 md:mx-5 gap-5">
+          <!-- Start Welcome Widget -->
+          <article class="article">
+            <div
+              class="p-10 md:p-5 flex justify-center md:justify-between bg-[#eee]"
+            >
+              <div class="">
+                <h2 class="text-[20px] font-bold">Bienvenue</h2>
+                <p class="mt-1.5 text-grayColor">François</p>
+              </div>
+              <div>
+                <img
+                  src="./imgs/welcome.png"
+                  alt=""
+                  class="w-[200px] hidden md:block -mt-2.5"
+                />
+              </div>
+            </div>
+            <img
+              src="./imgs/photomail.jpg"
+              alt=""
+              class="w-[64px] h-[64px] text-center rounded-full border-2 border-white shadow-imgShadow relative left-1/2 md:left-0 -translate-x-1/2 md:-translate-x-0 p-1 md:ml-5 -mt-8"
+            />
+            <div
+              class="block md:flex text-center my-5 p-5 border-y border-[#eee]"
+            >
+              <div class="flex-1 font-bold text-[14px]">
+                François dupond<span
+                  class="block text-[13px] text-grayColor font-normal mb-4 mt-2"
+                  >artiste</span
+                >
+              </div>
+              
+              <div class="flex-1 font-bold text-[16px]">
+                16 200,00 €<span
+                  class="block text-[13px] text-grayColor font-normal mt-2"
+                  >Compte courant</span
+                >
+              </div>
+            </div>
+            <div class="flex-1 font-bold text-[16px] mb">
+              16 200,00 €<span
+                class="block text-[13px] text-grayColor font-normal mt-2"
+                >Compte courant</span
+              >
+            </div>
+          </article>
+          <!-- End Welcome Widget -->
+
+          <!-- Start Quick Draft Widget -->
+          
+          <!-- End Quick Draft Widget -->
+
+          <!-- Start Targets -->
+         
+
+          <!-- Start Tickets -->
+          <article class="article pb-5">
+            <div class="special-div">
+              <h2 class="special-heading">Tickets Statistics</h2>
+              <p class="special-para">Everything About Support Tickets</p>
+            </div>
+            <div
+              class="flex items-center justify-center flex-row gap-4 flex-wrap"
+            >
+              <section class="ticket-section">
+                <i
+                  class="fa-regular fa-rectangle-list fa-2x text-orangeColor"
+                ></i>
+                <span class="block font-bold text-[20px]">15 400,00 €</span>
+                <p class="text-grayColor text-[13px]">Compte Épargne</p>
+              </section>
+              <section class="ticket-section">
+                <i class="fa-solid fa-spinner fa-2x text-blueColor"></i>
+                <span class="block font-bold text-[20px]">5 000,00 €</span>
+                <p class="text-grayColor text-[13px]">Carte Bancaire</p>
+              </section>
+              <section class="ticket-section">
+                <i class="fa-regular fa-circle-check fa-2x text-greenColor"></i>
+                <span class="block font-bold text-[20px]">1900</span>
+                <p class="text-grayColor text-[13px]">Closed</p>
+              </section>
+              <section class="ticket-section">
+                <i
+                  class="fa-regular fa-rectangle-xmark fa-2x text-redColor"
+                ></i>
+                <span class="block font-bold text-[20px]">100</span>
+                <p class="text-grayColor text-[13px]">Deleted</p>
+              </section>
+            </div>
+          </article>
+          <!-- End Tickets -->
+          <!-- Start News -->
+          <article class="article">
+            <div class="special-div">
+              <h2 class="special-heading">Latest News</h2>
+            </div>
+            <div class="flex flex-col p-5 pt-0">
+              <section
+                class="flex flex-col md:flex-row items-center justify-between py-4 border-b border-[#eee]"
+              >
+                <div
+                  class="flex flex-col items-center md:flex-row gap-4 xl:gap-2"
+                >
+                  <img
+                    src="./imgs/news-01.png"
+                    class="w-[150px] md:w-[100px] rounded-[6px]"
+                    alt=""
+                  />
+                  <div class="flex flex-col gap-1">
+                    <span class="widget-span lg:text-[13px]"
+                      >Created SASS Section</span
+                    >
+                    <p class="widget-para">New SASS Examples & Tutorials</p>
+                  </div>
+                </div>
+                <span class="widget-label-span">3 Days Ago</span>
+              </section>
+
+              <section
+                class="flex flex-col md:flex-row items-center justify-between py-4 border-b border-[#eee]"
+              >
+                <div
+                  class="flex flex-col items-center md:flex-row gap-4 xl:gap-2"
+                >
+                  <img
+                    src="./imgs/news-02.png"
+                    class="w-[150px] md:w-[100px] rounded-[6px]"
+                    alt=""
+                  />
+                  <div class="flex flex-col gap-1">
+                    <span class="widget-span lg:text-[13px]"
+                      >Changed The Design</span
+                    >
+                    <p class="widget-para">A Brand New Website Design</p>
+                  </div>
+                </div>
+                <span class="widget-label-span">5 Days Ago</span>
+              </section>
+
+              <section
+                class="flex flex-col md:flex-row items-center justify-between py-4 border-b border-[#eee]"
+              >
+                <div
+                  class="flex flex-col items-center md:flex-row gap-4 xl:gap-2"
+                >
+                  <img
+                    src="./imgs/news-03.png"
+                    class="w-[150px] md:w-[100px] rounded-[6px]"
+                    alt=""
+                  />
+                  <div class="flex flex-col gap-1">
+                    <span class="widget-span lg:text-[13px]"
+                      >Team Increased</span
+                    >
+                    <p class="widget-para">3 Developers Joined The Team</p>
+                  </div>
+                </div>
+                <span class="widget-label-span">7 Days Ago</span>
+              </section>
+
+              <section
+                class="flex flex-col md:flex-row items-center justify-between py-4"
+              >
+                <div
+                  class="flex flex-col items-center md:flex-row gap-4 xl:gap-2"
+                >
+                  <img
+                    src="./imgs/news-04.png"
+                    class="w-[150px] md:w-[100px] rounded-[6px]"
+                    alt=""
+                  />
+                  <div class="flex flex-col gap-1">
+                    <span class="widget-span lg:text-[13px]"
+                      >Added Payment Gateway</span
+                    >
+                    <p class="widget-para">Many New Payment Gateways Added</p>
+                  </div>
+                </div>
+                <span class="widget-label-span">9 Days Ago</span>
+              </section>
+            </div>
+          </article>
+          
+       
+        </div>
+        <!-- Start Table -->
+        <div class="projects p-5 bg-white rounded-[10px] m-2.5 md:m-5">
+          <h2 class="special-heading">Projects</h2>
+          <div class="responsive-table overflow-x-auto">
+            <table class="text-[15px] w-full min-w-[1000px] border-spacing-0">
+              <thead>
+                <tr>
+                  <td class="bg-[#eee] font-bold p-4">Name</td>
+                  <td class="bg-[#eee] font-bold p-4">Finish Date</td>
+                  <td class="bg-[#eee] font-bold p-4">Client</td>
+                  <td class="bg-[#eee] font-bold p-4">Price</td>
+                  <td class="bg-[#eee] font-bold p-4">Team</td>
+                  <td class="bg-[#eee] font-bold p-4">Status</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="hover:bg-[#faf7f7] duration-300">
+                  <td class="duration-300 border-[1px] border-[#eee] pl-4 py-4">
+                    Ministry Wikipedia
+                  </td>
+                  <td class="duration-300 border-[1px] border-[#eee] pl-4 py-4">
+                    10 May 2022
+                  </td>
+                  <td class="duration-300 border-[1px] border-[#eee] pl-4 py-4">
+                    Ministry
+                  </td>
+                  <td class="duration-300 border-[1px] border-[#eee] pl-4 py-4">
+                    $5300
+                  </td>
+                  <td
+                    class="duration-300 border-[1px] border-[#eee] flex pl-4 py-4"
+                  >
+                    <img
+                      class="w-8 h-8 rounded-full p-[2px] bg-white"
+                      src="imgs/team-01.png"
+                      alt=""
+                    />
+                    <img
+                      class="w-8 h-8 rounded-full p-[2px] bg-white -ml-5"
+                      src="imgs/team-02.png"
+                      alt=""
+                    />
+                    <img
+                      class="w-8 h-8 rounded-full p-[2px] bg-white -ml-5"
+                      src="imgs/team-03.png"
+                      alt=""
+                    />
+                    <img
+                      class="w-8 h-8 rounded-full p-[2px] bg-white -ml-5"
+                      src="imgs/team-05.png"
+                      alt=""
+                    />
+                  </td>
+                  <td class="duration-300 border-[1px] border-[#eee] pl-4">
+                    <span
+                      class="label p-1 rounded-[6px] bg-orangeColor text-white"
+                      >Pending</span
+                    >
+                  </td>
+                </tr>
+                <tr class="hover:bg-[#faf7f7] duration-300">
+                  <td class="duration-300 border-[1px] border-[#eee] pl-4 py-4">
+                    Nader Shop
+                  </td>
+                  <td class="duration-300 border-[1px] border-[#eee] pl-4 py-4">
+                    12 Oct 2021
+                  </td>
+                  <td class="duration-300 border-[1px] border-[#eee] pl-4 py-4">
+                    Nader Company
+                  </td>
+                  <td class="duration-300 border-[1px] border-[#eee] pl-4 py-4">
+                    $1500
+                  </td>
+                  <td
+                    class="duration-300 border-[1px] border-[#eee] flex pl-4 py-4"
+                  >
+                    <img
+                      class="w-8 h-8 rounded-full p-[2px] bg-white"
+                      src="imgs/team-01.png"
+                      alt=""
+                    />
+                    <img
+                      class="w-8 h-8 rounded-full p-[2px] bg-white -ml-5"
+                      src="imgs/team-02.png"
+                      alt=""
+                    />
+                    <img
+                      class="w-8 h-8 rounded-full p-[2px] bg-white -ml-5"
+                      src="imgs/team-05.png"
+                      alt=""
+                    />
+                  </td>
+                  <td class="duration-300 border-[1px] border-[#eee] pl-4 py-4">
+                    <span
+                      class="label p-1 rounded-[6px] bg-blueColor text-white"
+                      >In Progress</span
+                    >
+                  </td>
+                </tr>
+                <tr class="hover:bg-[#faf7f7] duration-300">
+                  <td class="duration-300 border-[1px] border-[#eee] pl-4 py-4">
+                    Bouba App
+                  </td>
+                  <td class="duration-300 border-[1px] border-[#eee] pl-4 py-4">
+                    05 Sep 2021
+                  </td>
+                  <td class="duration-300 border-[1px] border-[#eee] pl-4 py-4">
+                    Bouba
+                  </td>
+                  <td class="duration-300 border-[1px] border-[#eee] pl-4 py-4">
+                    $800
+                  </td>
+                  <td
+                    class="duration-300 border-[1px] border-[#eee] flex pl-4 py-4"
+                  >
+                    <img
+                      class="w-8 h-8 rounded-full p-[2px] bg-white"
+                      src="imgs/team-02.png"
+                      alt=""
+                    />
+                    <img
+                      class="w-8 h-8 rounded-full p-[2px] bg-white -ml-5"
+                      src="imgs/team-03.png"
+                      alt=""
+                    />
+                  </td>
+                  <td class="duration-300 border-[1px] border-[#eee] pl-4 py-4">
+                    <span
+                      class="label p-1 rounded-[6px] bg-greenColor text-white"
+                      >Completed</span
+                    >
+                  </td>
+                </tr>
+                <tr class="hover:bg-[#faf7f7] duration-300">
+                  <td class="duration-300 border-[1px] border-[#eee] pl-4 py-4">
+                    Mahmoud Website
+                  </td>
+                  <td class="duration-300 border-[1px] border-[#eee] pl-4 py-4">
+                    22 May 2021
+                  </td>
+                  <td class="duration-300 border-[1px] border-[#eee] pl-4 py-4">
+                    Mahmoud
+                  </td>
+                  <td class="duration-300 border-[1px] border-[#eee] pl-4 py-4">
+                    $600
+                  </td>
+                  <td
+                    class="duration-300 border-[1px] border-[#eee] flex pl-4 py-4"
+                  >
+                    <img
+                      class="w-8 h-8 rounded-full p-[2px] bg-white"
+                      src="imgs/team-01.png"
+                      alt=""
+                    />
+                    <img
+                      class="w-8 h-8 rounded-full p-[2px] bg-white -ml-5"
+                      src="imgs/team-02.png"
+                      alt=""
+                    />
+                  </td>
+                  <td class="duration-300 border-[1px] border-[#eee] pl-4 py-4">
+                    <span
+                      class="label p-1 rounded-[6px] bg-greenColor text-white"
+                      >Completed</span
+                    >
+                  </td>
+                </tr>
+                <tr class="hover:bg-[#faf7f7] duration-300">
+                  <td class="duration-300 border-[1px] border-[#eee] pl-4 py-4">
+                    Sayed Website
+                  </td>
+                  <td class="duration-300 border-[1px] border-[#eee] pl-4 py-4">
+                    24 May 2021
+                  </td>
+                  <td class="duration-300 border-[1px] border-[#eee] pl-4 py-4">
+                    Sayed
+                  </td>
+                  <td class="duration-300 border-[1px] border-[#eee] pl-4 py-4">
+                    $300
+                  </td>
+                  <td
+                    class="duration-300 border-[1px] border-[#eee] flex pl-4 py-4"
+                  >
+                    <img
+                      class="w-8 h-8 rounded-full p-[2px] bg-white"
+                      src="imgs/team-01.png"
+                      alt=""
+                    />
+                    <img
+                      class="w-8 h-8 rounded-full p-[2px] bg-white -ml-5"
+                      src="imgs/team-03.png"
+                      alt=""
+                    />
+                  </td>
+                  <td class="duration-300 border-[1px] border-[#eee] pl-4 py-4">
+                    <span class="label p-1 rounded-[6px] bg-redColor text-white"
+                      >Rejected</span
+                    >
+                  </td>
+                </tr>
+                <tr class="hover:bg-[#faf7f7] duration-300">
+                  <td class="duration-300 border-[1px] border-[#eee] pl-4 py-4">
+                    Arena Application
+                  </td>
+                  <td class="duration-300 border-[1px] border-[#eee] pl-4 py-4">
+                    01 Mar 2021
+                  </td>
+                  <td class="duration-300 border-[1px] border-[#eee] pl-4 py-4">
+                    Arena Company
+                  </td>
+                  <td class="duration-300 border-[1px] border-[#eee] pl-4 py-4">
+                    $2600
+                  </td>
+                  <td
+                    class="duration-300 border-[1px] border-[#eee] flex pl-4 py-4"
+                  >
+                    <img
+                      class="w-8 h-8 rounded-full p-[2px] bg-white"
+                      decoding="async"
+                      src="imgs/team-01.png"
+                      alt=""
+                    />
+                    <img
+                      class="w-8 h-8 rounded-full p-[2px] bg-white -ml-5"
+                      src="imgs/team-02.png"
+                      alt=""
+                    />
+                    <img
+                      class="w-8 h-8 rounded-full p-[2px] bg-white -ml-5"
+                      src="imgs/team-03.png"
+                      alt=""
+                    />
+                    <img
+                      class="w-8 h-8 rounded-full p-[2px] bg-white -ml-5"
+                      src="imgs/team-03.png"
+                      alt=""
+                    />
+                  </td>
+                  <td class="duration-300 border-[1px] border-[#eee] pl-4 py-4">
+                    <span
+                      class="label p-1 rounded-[6px] bg-greenColor text-white"
+                      >Completed</span
+                    >
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <!-- End Table -->
+        <!-- End content -->
+      </section>
+    </div>
+  </body>
+</html>
